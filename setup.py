@@ -14,5 +14,6 @@ setup(
     ],
     scripts=[],
     install_requires=[
+        "django>=4.0.0"
     ]
 )
