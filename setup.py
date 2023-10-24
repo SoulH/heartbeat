@@ -9,9 +9,10 @@ setup(
     author_email="saul@teamt.benefi365.com",
     url="",
     packages=[
-        'core',
-        'core.models',
-        'core.migrations',
+        'heartbeat',
+        'heartbeat.models',
+        'heartbeat.migrations',
+        'heartbeat.services'
     ],
     scripts=[],
     install_requires=[

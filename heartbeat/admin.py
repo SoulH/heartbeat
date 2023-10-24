@@ -1,6 +1,6 @@
 from django.contrib.admin import ModelAdmin, register
 
-from core.models import HeartbeatRequestLog
+from heartbeat.models import HeartbeatRequestLog
 
 
 @register(HeartbeatRequestLog)

@@ -6,7 +6,7 @@ class HeartbeatRequestLog(Model):
     url = CharField(max_length=200)
     timestamp = DateTimeField(default=now)
     status = PositiveIntegerField(default=200)
-    elapsed = TimeField()
+    elapsed = PositiveIntegerField()
     error = CharField(max_length=100, null=True, blank=True)
     reason = CharField(max_length=100, null=True, blank=True)
 
