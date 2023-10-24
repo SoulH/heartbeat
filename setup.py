@@ -9,9 +9,9 @@ setup(
     author_email="saul@teamt.benefi365.com",
     url="",
     packages=[
-        'django_heartbeat.core',
-        'django_heartbeat.core.models',
-        'django_heartbeat.core.migrations',
+        'core',
+        'core.models',
+        'core.migrations',
     ],
     scripts=[],
     install_requires=[
