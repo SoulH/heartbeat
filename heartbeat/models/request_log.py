@@ -12,3 +12,5 @@ class HeartbeatRequestLog(Model):
 
     class Meta:
         db_table = "heartbeat_request_log"
+        verbose_name = "Request Log"
+        verbose_name_plural = "Request Log"
