@@ -1,7 +1,6 @@
 /Pipfile.lock
 /.env
 *.log
-dist/*
 build/*
 *.egg-info
 /db.sqlite3
