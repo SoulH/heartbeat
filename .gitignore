@@ -4,3 +4,4 @@
 build/*
 *.egg-info
 /db.sqlite3
+/dist/*
